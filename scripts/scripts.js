@@ -30,4 +30,6 @@ function myFunction() {
     document.getElementById("overlay").style.display = "none";
   }
 
-
+  function show() {
+  document.getElementById("stuff").innerHTML = "Address, Email, etc..";
+  }
